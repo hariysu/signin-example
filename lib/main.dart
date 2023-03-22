@@ -7,7 +7,7 @@ class SignUpApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    print('git pull request example for master');
+    print('git pull request example for master2');
     return MaterialApp(
       routes: {
         '/': (context) => const SignUpScreen(),

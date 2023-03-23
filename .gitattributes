@@ -19,8 +19,4 @@
 Podfile linguist-detectable=false
 CMakeLists.txt linguist-detectable=false
 
-<<<<<<< HEAD
-#SampleB
-=======
-#SampleA
->>>>>>> branch-a
+#SampleC

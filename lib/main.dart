@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'screens/sign_up_screen.dart';
+import 'screens/welcome_screen.dart';
 
 void main() => runApp(const SignUpApp());
 
@@ -16,6 +18,7 @@ class SignUpApp extends StatelessWidget {
     );
   }
 }
+<<<<<<< HEAD
 
 class SignUpScreen extends StatelessWidget {
   const SignUpScreen();
@@ -203,3 +206,5 @@ class _AnimatedProgressIndicatorState extends State<AnimatedProgressIndicator>
     );
   }
 }
+=======
+>>>>>>> 960f87ad07ba0be302de6886ab5f552c95440850

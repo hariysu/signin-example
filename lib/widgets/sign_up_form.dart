@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:signin_example/main.dart';
 
 class SignUpForm extends StatefulWidget {
   const SignUpForm();
@@ -44,7 +45,7 @@ class _SignUpFormState extends State<SignUpForm> {
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
-          LinearProgressIndicator(value: _formProgress),
+          AnimatedProgressIndicator(value: _formProgress),
           Text('Sign up', style: Theme.of(context).textTheme.headlineMedium),
           Padding(
             padding: const EdgeInsets.all(8.0),
